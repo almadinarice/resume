@@ -1,0 +1,102 @@
+.body {
+  background: linear-gradient(to top,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(s.jpg);
+
+}
+
+
+.menu {
+
+  background: linear-gradient(to top,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(s.jpg);
+  padding: 20px;
+  text-align: center;
+}
+.menu{
+    width: 350px;
+    height :550px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+     top:70px;
+    left: 500px;
+    padding: 25px;
+    margin: auto;
+    color:aliceblue;
+    position: absolute;
+
+
+}
+.menu h2{
+    width: 290px;
+    color: blueviolet;
+    border-radius: 5px;
+    margin:2px;
+    padding:8px;
+    text-align: center;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.menu input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid greenyellow;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.menu input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color:blueviolet;
+font-family: Arial;
+}
+
+
+.menu h2 {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.menu form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu label {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+.menu input, textarea {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background-color: #444;
+}
+
+.menu p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
