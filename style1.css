@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+.hero{
+    width:100%;
+
+}
+.row{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 45%;
+
+}
+.slide{
+    height: 80vh;
+    display: flex;
+
+}
+.product img{
+    height: 19vh;
+    margin-bottom: 9px;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.product img:hover{
+    opacity: 1;
+}
+.privew img{
+    height: 75%;
+    width: 120%;
+}
+p{
+    margin-bottom: 20px;
+
+}
+.brand{
+    background: blueviolet;
+    width: fit-content;
+    color: #ffff;
+    font-size: 12px;
+    padding: 2px 5px;
+
+}
+h2{
+    font-size: 45px;
+    color: blue;
+    margin-bottom:20px;
+
+}
+.rait{
+    display: flex;
+    height: 15px;
+}
+.rait .fa{
+    color: navy;
+
+}
+.price{
+    color: navy;
+    font-size: 26px;
+    font-weight: bold;
+    padding-top: 0px;
+
+}
+input{
+    width: 30px;
+    border: 1px solid blueviolet;
+    font-weight: bold;
+    text-align: center;
+}
+button{
+    color: black;
+    font-size: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background: blueviolet;
+padding: 10px 15px;
+box-sizing: border-box;
+cursor: pointer;
+}
+.button:hover{
+
+    background: navy;
+    color: blue;
+}
+.related{
+    width: 90%;
+    margin: 0 auto 40px;
+}
+.related .row{
+    width: 100%;
+    height: auto;
+
+}
+.clms{
+    flex-basis: 22%;
+    height:80%;
+}
+.items img{
+    width:50% ;
+    opacity: 0.8;
+    cursor: pointer;
+
+
+}
+.items image:hover{
+    opacity: 1;
+
+}
+.details{
+    margin-top: 20px;
+
+}
+.details p{
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+.details rait{
+    margin : 10px 0;
+
+
+}
