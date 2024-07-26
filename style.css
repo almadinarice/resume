@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.4)50%,rgba(0,0,0,0.4)50%),url(ba1.jpg);
+    background-position:center;
+    background-size:cover ;
+    height: 100vh;
+}
+.WebPage{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: navy;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+
+    width: 100px;
+    float:left;
+    height: 70px;
+    
+
+}
+.menu .hover{
+
+    background-color: blue;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 60px;
+    margin-top: 28px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: arial;
+    color:azure;
+    font-weight:bold;
+    transition: o.5s ease-in-out;
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left:370px ;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 220px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid blueviolet;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 10px;
+
+}
+.btn{
+    width: 50px;
+    height: 20px;
+    background: blueviolet;
+    border:2px  black;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 250px;
+    height :380px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+     top:70px;
+    left: 870px;
+    padding: 25px;
+    margin: auto;
+    color:aliceblue;
+    position: absolute;
+
+
+}
+.content h2{
+    width: 220px;
+    color: black;
+    border-radius: 5px;
+    margin:2px;
+    padding:8px;
+    text-align: center;
+    background-color: navy;
+    font-family: sans-serif;
+    font-size: 22px;
+}
+.content input{
+    width:240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.content input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color:blueviolet;
+font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: navy;
+    margin-top: 10px;
+    border-bottom: gray;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+
+    
+}
+.btnn:hover{
+    background: blue;
+    color: blueviolet;
+}
+.btnn a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+
+}
+.content .link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.content .link a{
+    text-decoration: none;
+    color: gray;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.jym{
+    margin-top: 40px;
+    margin-left: 15px;
+    text-decoration: none;
+    position: absolute;
+    letter-spacing: 5px;
+    color: antiquewhite;
+}
+.jym h1{
+    color:navy;
+    font-weight:bold;
+}
+.jym h2{
+    color:blueviolet;
+    font-weight:bold;
+}
+.categories{
+    margin: 70px 0;
+    width: 1000px;
+
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+    width: 300px;
+    
+}
+.col-3 img{
+    width: 50%;
+    width: 300px;
+}
+.smallcon{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
